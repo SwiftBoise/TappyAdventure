@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9904B512066DA96003BB5CA /* SKScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9904B502066DA96003BB5CA /* SKScene.swift */; };
+		E9904B522066DA96003BB5CA /* SKScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9904B502066DA96003BB5CA /* SKScene.swift */; };
+		E9904B552066F561003BB5CA /* GameWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9904B542066F561003BB5CA /* GameWindow.swift */; };
+		E9CC206D2066066800F8E795 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CC206C2066066800F8E795 /* Color.swift */; };
+		E9CC206E2066066800F8E795 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CC206C2066066800F8E795 /* Color.swift */; };
+		E9CC206F2066066800F8E795 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CC206C2066066800F8E795 /* Color.swift */; };
+		E9D18F332065A72200AE9E80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D18F322065A72200AE9E80 /* AppDelegate.swift */; };
+		E9D18F352065A72200AE9E80 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D18F342065A72200AE9E80 /* GameViewController.swift */; };
+		E9D18F382065A72200AE9E80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D18F362065A72200AE9E80 /* Main.storyboard */; };
+		E9D18F3B2065A72200AE9E80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D18F392065A72200AE9E80 /* LaunchScreen.storyboard */; };
+		E9D18F442065A72200AE9E80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D18F432065A72200AE9E80 /* AppDelegate.swift */; };
+		E9D18F462065A72200AE9E80 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D18F452065A72200AE9E80 /* GameViewController.swift */; };
+		E9D18F492065A72200AE9E80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D18F472065A72200AE9E80 /* Main.storyboard */; };
+		E9D18F522065A72300AE9E80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D18F512065A72300AE9E80 /* AppDelegate.swift */; };
+		E9D18F542065A72300AE9E80 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D18F532065A72300AE9E80 /* GameViewController.swift */; };
+		E9D18F572065A72300AE9E80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D18F552065A72300AE9E80 /* Main.storyboard */; };
+		E9D18F5F2065A72300AE9E80 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D18F292065A72200AE9E80 /* GameScene.swift */; };
+		E9D18F602065A72300AE9E80 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D18F292065A72200AE9E80 /* GameScene.swift */; };
+		E9D18F612065A72300AE9E80 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D18F292065A72200AE9E80 /* GameScene.swift */; };
+		E9D18F622065A72300AE9E80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9D18F2A2065A72200AE9E80 /* Assets.xcassets */; };
+		E9D18F632065A72300AE9E80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9D18F2A2065A72200AE9E80 /* Assets.xcassets */; };
+		E9D18F642065A72300AE9E80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9D18F2A2065A72200AE9E80 /* Assets.xcassets */; };
+		E9DBD27120662C2400A965D8 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = E9DBD27020662C2400A965D8 /* Explosion.sks */; };
+		E9DBD27220662C2400A965D8 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = E9DBD27020662C2400A965D8 /* Explosion.sks */; };
+		E9DBD27320662C2400A965D8 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = E9DBD27020662C2400A965D8 /* Explosion.sks */; };
+		E9DBD27620662CBD00A965D8 /* explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9DBD27420662CBD00A965D8 /* explosion.wav */; };
+		E9DBD27720662CBD00A965D8 /* explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9DBD27420662CBD00A965D8 /* explosion.wav */; };
+		E9DBD27820662CBD00A965D8 /* explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9DBD27420662CBD00A965D8 /* explosion.wav */; };
+		E9DBD27920662CBD00A965D8 /* score.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9DBD27520662CBD00A965D8 /* score.wav */; };
+		E9DBD27A20662CBD00A965D8 /* score.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9DBD27520662CBD00A965D8 /* score.wav */; };
+		E9DBD27B20662CBD00A965D8 /* score.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9DBD27520662CBD00A965D8 /* score.wav */; };
+		E9F48AE42065B3EB0051D36F /* salty-ditty.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E9F48AE32065B3EA0051D36F /* salty-ditty.mp3 */; };
+		E9F48AE52065B3EB0051D36F /* salty-ditty.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E9F48AE32065B3EA0051D36F /* salty-ditty.mp3 */; };
+		E9F48AE62065B3EB0051D36F /* salty-ditty.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E9F48AE32065B3EA0051D36F /* salty-ditty.mp3 */; };
+		E9F48AEA2065B79A0051D36F /* kenvector_future_thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9F48AE82065B79A0051D36F /* kenvector_future_thin.ttf */; };
+		E9F48AEB2065B79A0051D36F /* kenvector_future_thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9F48AE82065B79A0051D36F /* kenvector_future_thin.ttf */; };
+		E9F48AEC2065B79A0051D36F /* kenvector_future_thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9F48AE82065B79A0051D36F /* kenvector_future_thin.ttf */; };
+		E9F48AED2065B79A0051D36F /* kenvector_future.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9F48AE92065B79A0051D36F /* kenvector_future.ttf */; };
+		E9F48AEE2065B79A0051D36F /* kenvector_future.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9F48AE92065B79A0051D36F /* kenvector_future.ttf */; };
+		E9F48AEF2065B79A0051D36F /* kenvector_future.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9F48AE92065B79A0051D36F /* kenvector_future.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E9904B502066DA96003BB5CA /* SKScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKScene.swift; sourceTree = "<group>"; };
+		E9904B542066F561003BB5CA /* GameWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameWindow.swift; sourceTree = "<group>"; };
+		E9CC206C2066066800F8E795 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		E9D18F292065A72200AE9E80 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		E9D18F2A2065A72200AE9E80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9D18F2F2065A72200AE9E80 /* Tappy Adventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tappy Adventure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9D18F322065A72200AE9E80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E9D18F342065A72200AE9E80 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E9D18F372065A72200AE9E80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9D18F3A2065A72200AE9E80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E9D18F3C2065A72200AE9E80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9D18F412065A72200AE9E80 /* Tappy Adventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tappy Adventure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9D18F432065A72200AE9E80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E9D18F452065A72200AE9E80 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E9D18F482065A72200AE9E80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9D18F4A2065A72200AE9E80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9D18F4F2065A72300AE9E80 /* Tappy Adventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tappy Adventure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9D18F512065A72300AE9E80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E9D18F532065A72300AE9E80 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E9D18F562065A72300AE9E80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9D18F582065A72300AE9E80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9DBD27020662C2400A965D8 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		E9DBD27420662CBD00A965D8 /* explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explosion.wav; sourceTree = "<group>"; };
+		E9DBD27520662CBD00A965D8 /* score.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = score.wav; sourceTree = "<group>"; };
+		E9F48AE32065B3EA0051D36F /* salty-ditty.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "salty-ditty.mp3"; sourceTree = "<group>"; };
+		E9F48AE72065B6F50051D36F /* TappyAdventure.sketch */ = {isa = PBXFileReference; lastKnownFileType = file; path = TappyAdventure.sketch; sourceTree = "<group>"; };
+		E9F48AE82065B79A0051D36F /* kenvector_future_thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = kenvector_future_thin.ttf; sourceTree = "<group>"; };
+		E9F48AE92065B79A0051D36F /* kenvector_future.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = kenvector_future.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9D18F2C2065A72200AE9E80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D18F3E2065A72200AE9E80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D18F4C2065A72300AE9E80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9D18F212065A72200AE9E80 = {
+			isa = PBXGroup;
+			children = (
+				E9F48AE72065B6F50051D36F /* TappyAdventure.sketch */,
+				E9D18F262065A72200AE9E80 /* TappyAdventure Shared */,
+				E9D18F312065A72200AE9E80 /* TappyAdventure iOS */,
+				E9D18F422065A72200AE9E80 /* TappyAdventure tvOS */,
+				E9D18F502065A72300AE9E80 /* TappyAdventure macOS */,
+				E9D18F302065A72200AE9E80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9D18F262065A72200AE9E80 /* TappyAdventure Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E9CC206C2066066800F8E795 /* Color.swift */,
+				E9904B502066DA96003BB5CA /* SKScene.swift */,
+				E9DBD27020662C2400A965D8 /* Explosion.sks */,
+				E9D18F292065A72200AE9E80 /* GameScene.swift */,
+				E9D18F2A2065A72200AE9E80 /* Assets.xcassets */,
+				E9F48AE92065B79A0051D36F /* kenvector_future.ttf */,
+				E9F48AE82065B79A0051D36F /* kenvector_future_thin.ttf */,
+				E9DBD27420662CBD00A965D8 /* explosion.wav */,
+				E9F48AE32065B3EA0051D36F /* salty-ditty.mp3 */,
+				E9DBD27520662CBD00A965D8 /* score.wav */,
+			);
+			path = "TappyAdventure Shared";
+			sourceTree = "<group>";
+		};
+		E9D18F302065A72200AE9E80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9D18F2F2065A72200AE9E80 /* Tappy Adventure.app */,
+				E9D18F412065A72200AE9E80 /* Tappy Adventure.app */,
+				E9D18F4F2065A72300AE9E80 /* Tappy Adventure.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9D18F312065A72200AE9E80 /* TappyAdventure iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E9D18F322065A72200AE9E80 /* AppDelegate.swift */,
+				E9D18F342065A72200AE9E80 /* GameViewController.swift */,
+				E9D18F362065A72200AE9E80 /* Main.storyboard */,
+				E9D18F392065A72200AE9E80 /* LaunchScreen.storyboard */,
+				E9D18F3C2065A72200AE9E80 /* Info.plist */,
+			);
+			path = "TappyAdventure iOS";
+			sourceTree = "<group>";
+		};
+		E9D18F422065A72200AE9E80 /* TappyAdventure tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				E9D18F432065A72200AE9E80 /* AppDelegate.swift */,
+				E9D18F452065A72200AE9E80 /* GameViewController.swift */,
+				E9D18F472065A72200AE9E80 /* Main.storyboard */,
+				E9D18F4A2065A72200AE9E80 /* Info.plist */,
+			);
+			path = "TappyAdventure tvOS";
+			sourceTree = "<group>";
+		};
+		E9D18F502065A72300AE9E80 /* TappyAdventure macOS */ = {
+			isa = PBXGroup;
+			children = (
+				E9D18F512065A72300AE9E80 /* AppDelegate.swift */,
+				E9904B542066F561003BB5CA /* GameWindow.swift */,
+				E9D18F532065A72300AE9E80 /* GameViewController.swift */,
+				E9D18F552065A72300AE9E80 /* Main.storyboard */,
+				E9D18F582065A72300AE9E80 /* Info.plist */,
+			);
+			path = "TappyAdventure macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9D18F2E2065A72200AE9E80 /* TappyAdventure iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9D18F672065A72300AE9E80 /* Build configuration list for PBXNativeTarget "TappyAdventure iOS" */;
+			buildPhases = (
+				E9D18F2B2065A72200AE9E80 /* Sources */,
+				E9D18F2C2065A72200AE9E80 /* Frameworks */,
+				E9D18F2D2065A72200AE9E80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TappyAdventure iOS";
+			productName = "TappyAdventure iOS";
+			productReference = E9D18F2F2065A72200AE9E80 /* Tappy Adventure.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9D18F402065A72200AE9E80 /* TappyAdventure tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9D18F6A2065A72300AE9E80 /* Build configuration list for PBXNativeTarget "TappyAdventure tvOS" */;
+			buildPhases = (
+				E9D18F3D2065A72200AE9E80 /* Sources */,
+				E9D18F3E2065A72200AE9E80 /* Frameworks */,
+				E9D18F3F2065A72200AE9E80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TappyAdventure tvOS";
+			productName = "TappyAdventure tvOS";
+			productReference = E9D18F412065A72200AE9E80 /* Tappy Adventure.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9D18F4E2065A72300AE9E80 /* TappyAdventure macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9D18F6D2065A72300AE9E80 /* Build configuration list for PBXNativeTarget "TappyAdventure macOS" */;
+			buildPhases = (
+				E9D18F4B2065A72300AE9E80 /* Sources */,
+				E9D18F4C2065A72300AE9E80 /* Frameworks */,
+				E9D18F4D2065A72300AE9E80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TappyAdventure macOS";
+			productName = "TappyAdventure macOS";
+			productReference = E9D18F4F2065A72300AE9E80 /* Tappy Adventure.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9D18F222065A72200AE9E80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "DevFountain LLC";
+				TargetAttributes = {
+					E9D18F2E2065A72200AE9E80 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
+					};
+					E9D18F402065A72200AE9E80 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					E9D18F4E2065A72300AE9E80 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = E9D18F252065A72200AE9E80 /* Build configuration list for PBXProject "TappyAdventure" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9D18F212065A72200AE9E80;
+			productRefGroup = E9D18F302065A72200AE9E80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9D18F2E2065A72200AE9E80 /* TappyAdventure iOS */,
+				E9D18F402065A72200AE9E80 /* TappyAdventure tvOS */,
+				E9D18F4E2065A72300AE9E80 /* TappyAdventure macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9D18F2D2065A72200AE9E80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F48AEA2065B79A0051D36F /* kenvector_future_thin.ttf in Resources */,
+				E9DBD27920662CBD00A965D8 /* score.wav in Resources */,
+				E9D18F382065A72200AE9E80 /* Main.storyboard in Resources */,
+				E9DBD27620662CBD00A965D8 /* explosion.wav in Resources */,
+				E9D18F3B2065A72200AE9E80 /* LaunchScreen.storyboard in Resources */,
+				E9F48AE42065B3EB0051D36F /* salty-ditty.mp3 in Resources */,
+				E9D18F622065A72300AE9E80 /* Assets.xcassets in Resources */,
+				E9DBD27120662C2400A965D8 /* Explosion.sks in Resources */,
+				E9F48AED2065B79A0051D36F /* kenvector_future.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D18F3F2065A72200AE9E80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F48AE52065B3EB0051D36F /* salty-ditty.mp3 in Resources */,
+				E9DBD27A20662CBD00A965D8 /* score.wav in Resources */,
+				E9F48AEE2065B79A0051D36F /* kenvector_future.ttf in Resources */,
+				E9DBD27720662CBD00A965D8 /* explosion.wav in Resources */,
+				E9D18F492065A72200AE9E80 /* Main.storyboard in Resources */,
+				E9D18F632065A72300AE9E80 /* Assets.xcassets in Resources */,
+				E9F48AEB2065B79A0051D36F /* kenvector_future_thin.ttf in Resources */,
+				E9DBD27220662C2400A965D8 /* Explosion.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D18F4D2065A72300AE9E80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F48AE62065B3EB0051D36F /* salty-ditty.mp3 in Resources */,
+				E9DBD27B20662CBD00A965D8 /* score.wav in Resources */,
+				E9F48AEF2065B79A0051D36F /* kenvector_future.ttf in Resources */,
+				E9DBD27820662CBD00A965D8 /* explosion.wav in Resources */,
+				E9D18F572065A72300AE9E80 /* Main.storyboard in Resources */,
+				E9D18F642065A72300AE9E80 /* Assets.xcassets in Resources */,
+				E9F48AEC2065B79A0051D36F /* kenvector_future_thin.ttf in Resources */,
+				E9DBD27320662C2400A965D8 /* Explosion.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9D18F2B2065A72200AE9E80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D18F5F2065A72300AE9E80 /* GameScene.swift in Sources */,
+				E9D18F352065A72200AE9E80 /* GameViewController.swift in Sources */,
+				E9CC206D2066066800F8E795 /* Color.swift in Sources */,
+				E9D18F332065A72200AE9E80 /* AppDelegate.swift in Sources */,
+				E9904B512066DA96003BB5CA /* SKScene.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D18F3D2065A72200AE9E80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D18F602065A72300AE9E80 /* GameScene.swift in Sources */,
+				E9D18F462065A72200AE9E80 /* GameViewController.swift in Sources */,
+				E9CC206E2066066800F8E795 /* Color.swift in Sources */,
+				E9D18F442065A72200AE9E80 /* AppDelegate.swift in Sources */,
+				E9904B522066DA96003BB5CA /* SKScene.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D18F4B2065A72300AE9E80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D18F612065A72300AE9E80 /* GameScene.swift in Sources */,
+				E9D18F542065A72300AE9E80 /* GameViewController.swift in Sources */,
+				E9CC206F2066066800F8E795 /* Color.swift in Sources */,
+				E9904B552066F561003BB5CA /* GameWindow.swift in Sources */,
+				E9D18F522065A72300AE9E80 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E9D18F362065A72200AE9E80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9D18F372065A72200AE9E80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E9D18F392065A72200AE9E80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9D18F3A2065A72200AE9E80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E9D18F472065A72200AE9E80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9D18F482065A72200AE9E80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E9D18F552065A72300AE9E80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9D18F562065A72300AE9E80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9D18F652065A72300AE9E80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9D18F662065A72300AE9E80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		E9D18F682065A72300AE9E80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TappyAdventure iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devfountain.TappyAdventure.iOS;
+				PRODUCT_NAME = "Tappy Adventure";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9D18F692065A72300AE9E80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TappyAdventure iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devfountain.TappyAdventure.iOS;
+				PRODUCT_NAME = "Tappy Adventure";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9D18F6B2065A72300AE9E80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "tvOS LaunchImage";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TappyAdventure tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devfountain.TappyAdventure.tvOS;
+				PRODUCT_NAME = "Tappy Adventure";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		E9D18F6C2065A72300AE9E80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "tvOS LaunchImage";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TappyAdventure tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devfountain.TappyAdventure.tvOS;
+				PRODUCT_NAME = "Tappy Adventure";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9D18F6E2065A72300AE9E80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "TappyAdventure macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devfountain.TappyAdventure.macOS;
+				PRODUCT_NAME = "Tappy Adventure";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		E9D18F6F2065A72300AE9E80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "TappyAdventure macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devfountain.TappyAdventure.macOS;
+				PRODUCT_NAME = "Tappy Adventure";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9D18F252065A72200AE9E80 /* Build configuration list for PBXProject "TappyAdventure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D18F652065A72300AE9E80 /* Debug */,
+				E9D18F662065A72300AE9E80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9D18F672065A72300AE9E80 /* Build configuration list for PBXNativeTarget "TappyAdventure iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D18F682065A72300AE9E80 /* Debug */,
+				E9D18F692065A72300AE9E80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9D18F6A2065A72300AE9E80 /* Build configuration list for PBXNativeTarget "TappyAdventure tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D18F6B2065A72300AE9E80 /* Debug */,
+				E9D18F6C2065A72300AE9E80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9D18F6D2065A72300AE9E80 /* Build configuration list for PBXNativeTarget "TappyAdventure macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D18F6E2065A72300AE9E80 /* Debug */,
+				E9D18F6F2065A72300AE9E80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9D18F222065A72200AE9E80 /* Project object */;
+}
